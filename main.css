@@ -19,6 +19,6 @@ span {
 /*In the article element with the class n-child, add a 1 pixel border 
 around every even numbered section element.*/
 
-#nth-child(2n) {
+.n-child section:nth-child(2n + 1) {
 	border: 1px solid black;
 }
